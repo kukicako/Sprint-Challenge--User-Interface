@@ -51,9 +51,11 @@ table {
     box-sizing: border-box;
 }
 
-html, body {
-    height: 100%;
+html, body, header {
+    height: 10%;
     font-family: 'Roboto', sans-serif;
+    margin:5%;
+    margin-top:20px;
 }
 
 h1, h2, h3, h4, h5 {
@@ -104,7 +106,7 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
+   
     margin: 20px 2.5%;
     color: white;
     display: flex;
@@ -143,4 +145,73 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+.header{
+    display:flex;
+    flex-wrap:wrap;
+    flex-direction:row-reverse
+    
+}
+
+.topnav{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: space-evenly;
+    width:100%;
+    color:black;
+    margin-top:30px;
+
+}
+
+.topimage{
+   margin-top:-20px;
+  
+    
+}
+
+.jumbo{
+    margin-right: 20%;
+    width:60%;
+    padding:50px;
+    margin-left: 20%;
+    justify-content: center;
+    
+}
+.topnav a{
+    color:black;
+    text-decoration: none;
+}
+ .teal{
+    background-color:teal
+}
+.yellow{
+    background-color:yellow;
+}
+.lightblue{
+    background-color:lightblue;
+}
+.orange{
+    background-color:orange;
+}
+.red{
+    background-color:red;
+}
+.green{
+    background-color:green;
+}
+.purple{
+    background-color: purple;
+
+}
+.pink{
+    background-color: #A13AAC;
+
+}
+.darkpurple{
+    background-color:blueviolet;
+
+}
+.darkblue{
+    background-color: darkblue;
 }
