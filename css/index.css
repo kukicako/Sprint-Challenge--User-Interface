@@ -215,3 +215,19 @@ footer nav a {
 .darkblue{
     background-color: darkblue;
 }
+
+.para{
+    display:flex;
+	flex-wrap: wrap;
+    flex-direction: row;
+
+	margin-top:25px;
+	margin-bottom:25px;
+	padding-top:25px;
+    padding-bottom:25px;
+    align-content: flex-start;
+}
+
+.headerabout{
+    display:flex;
+}
