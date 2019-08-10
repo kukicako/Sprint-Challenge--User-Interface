@@ -104,7 +104,7 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
+   
     margin: 20px 2.5%;
     color: white;
     display: flex;
@@ -143,4 +143,106 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+header{
+    display:flex;
+    margin-top:20px;
+    margin-bottom:20px;
+}
+
+header img {
+    margin-right: 20px;
+
+}
+
+header nav {
+    height:40px;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items:flex-end;
+}
+header nav a{
+    text-decoration: none;
+    color:black;
+}
+.jumbo{
+    margin-bottom: 20px;
+}
+ .teal{
+    background-color: teal;
+}
+.gold{
+    background-color: gold;
+}
+.cadetblue{
+    background-color: cadetblue;
+}
+.coral{
+    background-color: coral;
+}
+.crimson{
+    background-color: crimson;
+}
+.forestgreen{
+    background-color: forestgreen;
+}
+.darkorchid{
+    background-color: darkorchid;
+}
+.hotpink{
+    background-color: hotpink;
+}
+.indigo{
+    background-color: indigo;
+}
+.dodgerblue{
+    background-color: dodgerblue;
+}
+
+.about-page .top-content{
+justify-content: left;
+padding-bottom:20px;
+
+}
+.about-page .middle-content{
+display:flex;
+flex-wrap:wrap;
+border:none;
+}
+
+.middlebox{
+    width:46%;
+    border-bottom: 1px dashed black;
+    margin-right:2%;
+    margin-left:2%;
+    margin-top:25px;
+    padding-bottom:25px;
+}
+
+.middlebox p{
+    margin-bottom: 25px;
+    margin-top:20px;
+}
+.middlebox h2{
+    margin-top:20px;
+    padding-left:0px;
+}
+
+button{
+    border-radius: 10px;
+    background: white;
+    border: 2px solid black;
+    padding-left:20px;
+    padding-right:20px;
+    padding-bottom:10px;
+    padding-top:10px;
+}
+.about-page .bottom-content{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: left;
+    padding-top:20px;
+    padding-bottom:20px;   
 }
