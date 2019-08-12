@@ -52,7 +52,7 @@ table {
 }
 
 html, body, header {
-    height: 10%;
+    /* height: 10%; */
     font-family: 'Roboto', sans-serif;
     margin:5%;
     margin-top:20px;
@@ -219,7 +219,7 @@ footer nav a {
 .para{
     display:flex;
 	flex-wrap: wrap;
-    flex-direction: row;
+    flex-direction: column;
 
 	margin-top:25px;
 	margin-bottom:25px;
@@ -230,4 +230,5 @@ footer nav a {
 
 .headerabout{
     display:flex;
+    flex-direction: column;
 }
